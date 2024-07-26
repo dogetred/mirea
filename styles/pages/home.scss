@@ -1,0 +1,38 @@
+
+.home {
+  .block {
+    position: absolute;
+    cursor: pointer;
+    transition: .3s linear;
+    border: 2px solid black;
+
+    a {
+      display: grid;
+      width: 100%;
+      height: 100%;
+      place-items: center;
+    }
+  }
+
+  .block-1 {
+    border-right: 2px solid transparent;
+  }
+
+  .block-2 {
+    border-bottom: 2px solid transparent;
+  }
+
+  .block-3 {
+    border-top: 2px solid transparent;
+  }
+
+  .block-4 {
+    border-left: 2px solid transparent;
+  }
+
+  .block-center {
+    top: 40%;
+    left: 40%;
+    border: 2px solid transparent;
+  }
+}

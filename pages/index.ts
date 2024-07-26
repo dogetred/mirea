@@ -1,0 +1,8 @@
+export { default as Home } from './home'
+export { default as NotFound } from './404'
+export { default as Articles } from './articles'
+export { default as About } from './about'
+export { default as Hire } from './hire'
+export { default as Grid } from './grid'
+export { default as Journal } from './journal'
+export { default as Algorithms } from './algorithms'
